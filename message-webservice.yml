@@ -1,6 +1,6 @@
 server:
   port: 8081
-  contextPath: /user-service
+  contextPath: /message-service
 
 eureka:
   client:
