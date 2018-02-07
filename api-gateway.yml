@@ -68,6 +68,7 @@ server:
 # requests using zuul
 zuul:
   ignoredServices: '*'
+  ignoredPatterns: /**/apis/**
   routes:
     user-service:
       path: /user-service/**
