@@ -79,6 +79,11 @@ zuul:
       stripPrefix: false
       serviceId: task-webservice
       sensitiveHeaders:
+    sms-service:
+      path: /message-service/**
+      stripPrefix: false
+      serviceId: message-webservice
+      sensitiveHeaders:
     user:
       path: /api/loggedinuser/**
       stripPrefix: true
