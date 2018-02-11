@@ -40,6 +40,11 @@ spring:
   #  password: password
   #  driver-class: com.mysql.jdbc.Driver
 
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create
   zipkin:
     baseUrl: http://zipkinserver:9411/
 
@@ -56,3 +61,17 @@ eureka:
 # since each docker container has it's own IP
 server:
   port: 8080
+  
+# africas talking configs
+africastalking:
+  apiKey: 6507b4ce5177bfb968b87d954463f6da13345295f02dd4324b7caaebab25a7f7
+  username: mastercard
+  senderId: MCLFI
+  shortCode: 40289
+  sandboxUsername: sandbox
+  sandboxShortCode: 67337
+  sampleforwardUrl: http://localhost:8080/sandbox
+
+#spring.activemq.user: admin
+#spring.activemq.password: admin
+#spring.activemq.broker-url: tcp://localhost:61616?jms.redeliveryPolicy.maximumRedeliveries=5&jms.redeliveryPolicy.redeliveryDelay=30000&jms.redeliveryPolicy.initialRedeliveryDelay=30000
