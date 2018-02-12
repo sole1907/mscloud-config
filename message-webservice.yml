@@ -62,8 +62,8 @@ eureka:
 server:
   port: 8080
   
-# africas talking configs
 africastalking:
+# africas talking configs
   apiKey: 6507b4ce5177bfb968b87d954463f6da13345295f02dd4324b7caaebab25a7f7
   username: mastercard
   senderId: MCLFI
