@@ -57,8 +57,8 @@ security:
           -----BEGIN PUBLIC KEY-----
           MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhVny3DfQqdvQaPj6SJiiFfPRGH/5k3OiAXTCsmpKnL/GVKZpfFjT3LhN7xoj0DzJLTCOE94eOjIHipFzxrL00kBCZJ3HOornKDpTh17yPuqJI6DNmvJaRBbc3SVQsO0vndnDAeOBiv4euGHH97sPZYFqhmwM35PboqxeWaHrfgWcA5F8VFTp+HDPr26G4sv/UqkR1LsfRoD4gzNJswi00eWcNjeoEzy71023VECQYDytUg/wVqWOJnShWOJnCBnuzmjrtOCg6O6ecdHhVaiRI0//ZR71x2oDW5pe+kgVhhM29TH8SVRjbAFh35obN6ppcF3A7PFLf+euZTsmXMaahQIDAQAB
           -----END PUBLIC KEY-----
-#  ignored: /message-service/**
-# Define the port where the API gateway server would be running
+
+# Define the port where the portal would be running
 server:
   port: 8080
 
@@ -110,15 +110,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-server:
-  port: 8090
-
 turbine:
   appConfig: task-webservice
   clusterNameExpression: "'default'"
----
 
-# api-gateway instance when used on Docker
 ---
 # Auth-server instance when used on Docker
 spring:
@@ -144,4 +139,4 @@ authserver:
 # Define the port where the API gateway server would be running. This could always be port 8080
 # since each docker container has it's own IP
 server:
-  port: 8765
+  port: 8080
