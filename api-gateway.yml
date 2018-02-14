@@ -70,7 +70,7 @@ server:
 zuul:
   ignoredServices: '*'
   routes:
-#    api: /api/**
+    api: /api/**
     user-service:
       path: /user-service/**
       stripPrefix: false
