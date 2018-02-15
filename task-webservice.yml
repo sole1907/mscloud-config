@@ -26,7 +26,7 @@ security:
       jwt:
         keyValue: |
           -----BEGIN PUBLIC KEY-----
-          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhVny3DfQqdvQaPj6SJiiFfPRGH/5k3OiAXTCsmpKnL/GVKZpfFjT3LhN7xoj0DzJLTCOE94eOjIHipFzxrL00kBCZJ3HOornKDpTh17yPuqJI6DNmvJaRBbc3SVQsO0vndnDAeOBiv4euGHH97sPZYFqhmwM35PboqxeWaHrfgWcA5F8VFTp+HDPr26G4sv/UqkR1LsfRoD4gzNJswi00eWcNjeoEzy71023VECQYDytUg/wVqWOJnShWOJnCBnuzmjrtOCg6O6ecdHhVaiRI0//ZR71x2oDW5pe+kgVhhM29TH8SVRjbAFh35obN6ppcF3A7PFLf+euZTsmXMaahQIDAQAB
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk3++DS7Bqw6R8ICGBqAEyIVJj0Qu2UGeVAToIGncIZmFtxhVb9wgZzCcq+0EJIEz6gZEQpTTr4HoAfzk9ysnfug39MuIwPFsyseu0SMx9LAptueikOPabo8IswwhjAy4p1ers6SqgqKh/sI4UXT/vgph4sVwWEEiE2py9VBjP6gUG43CDKKMvVMmA0EzSYVxtakr5C1lTlu/Gl14zsSIaenSx+ANO3ZqOO27aMLg0009qbwGcWhqQAaX7cyR+QfP/Un+vwAzyZ3E/KfiUQSGaGEzclmQ+nPA9n8ArIv7iyj8MflroXj5JIdpalonXl3J+IR6J1o5MfCGI2oIDefnFwIDAQAB         
           -----END PUBLIC KEY-----
 ---
 # task-webservice instance when used on Docker
