@@ -1,6 +1,6 @@
 server:
   port: 8081
-  contextPath: /message-service
+  contextPath: /message
 
 eureka:
   client:
@@ -35,7 +35,7 @@ spring:
   # Datasource and JPA configuration to be used for storing the OAuth authorization details
   # and token store
   datasource:
-   url: jdbc:mysql://message-db:5432/message
+   url: jdbc:postgresql://message-db:5432/message
    username: root
    password: password
    driver-class: org.postgresql.Driver
