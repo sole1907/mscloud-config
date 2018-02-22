@@ -35,13 +35,13 @@ spring:
   # Datasource and JPA configuration to be used for storing the OAuth authorization details
   # and token store
   datasource:
-   url: jdbc:mysql://message-mysqldb:3306/message
+   url: jdbc:mysql://message-db:5432/message
    username: root
    password: password
-   driver-class: com.mysql.jdbc.Driver
+   driver-class: org.postgresql.Driver
 
   jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate:
       ddl-auto: create
