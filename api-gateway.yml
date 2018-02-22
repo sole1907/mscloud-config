@@ -72,7 +72,7 @@ zuul:
   prefix: /api
   routes:
     message-service:
-      path: /message-service/**
+      path: /messages/**
       stripPrefix: false
       serviceId: message-webservice
       sensitiveHeaders:
